@@ -1,0 +1,32 @@
+[
+  {
+    "member_id": "M001",
+    "nama": "Andi Saputra",
+    "email": "andi.saputra@pcr.com",
+    "tipe_member": ["silver"]
+  },
+  {
+    "member_id": "M002",
+    "nama": "Rina Kartika",
+    "email": "rina.kartika@pcr.com",
+    "tipe_member": [ "gold"]
+  },
+  {
+    "member_id": "M003",
+    "nama": "Budi Santoso",
+    "email": "budi.santoso@pcr.com",
+    "tipe_member": [ "platinum"]
+  },
+  {
+    "member_id": "M004",
+    "nama": "Dewi Lestari",
+    "email": "dewi.lestari@pcr.com",
+    "tipe_member": ["gold"]
+  },
+  {
+    "member_id": "M005",
+    "nama": "Agus Prasetyo",
+    "email": "agus.prasetyo@pcr.com",
+    "tipe_member": [  "platinum"]
+  }
+]

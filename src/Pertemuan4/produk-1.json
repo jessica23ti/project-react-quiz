@@ -1,0 +1,32 @@
+[
+  {
+    "kode_produk": "P001",
+    "nama_produk": "Laptop ASUS",
+    "harga": 15000000,
+    "stok": 10
+  },
+  {
+    "kode_produk": "P002",
+    "nama_produk": "Smartphone Samsung",
+    "harga": 7000000,
+    "stok": 0
+  },
+  {
+    "kode_produk": "P003",
+    "nama_produk": "Kamera Canon",
+    "harga": 8500000,
+    "stok": 5
+  },
+  {
+    "kode_produk": "P004",
+    "nama_produk": "Headphone Sony",
+    "harga": 1500000,
+    "stok": 2
+  },
+  {
+    "kode_produk": "P005",
+    "nama_produk": "Smartwatch Xiaomi",
+    "harga": 2000000,
+    "stok": 8
+  }
+]

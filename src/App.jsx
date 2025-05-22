@@ -22,7 +22,7 @@ const CustomersForm = React.lazy(() =>
 );
 const NotFound = React.lazy(() => import("./Pertemuan5/pages/NotFound"));
 const OrdersForm = React.lazy(() => import("./Pertemuan5/pages/OrdersForm"));
-const User = React.lazy(() => import("./Pertemuan5/pages/USer"));
+const User = React.lazy(() => import("./Pertemuan5/pages/User"));
 const FormUser = React.lazy(() => import("./Pertemuan5/pages/UserForm"));
 const AboutUsPage = React.lazy(() => import("./Pertemuan5/pages/AboutUsPages"));
 const ProductBest = React.lazy(() => import("./Pertemuan5/pages/ProductBest"));

@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Orders from "./Pertemuan5/pages/Orders";
 // import HomePage from "./Pertemuan5/pages/homePage";
 import MainLayouts from "./Pertemuan5/layouts/MainLayouts";
-import Login from "./Pertemuan5/pages/auth/login";
+import Login from "./Pertemuan5/pages/auth/Login";
 import Regrister from "./Pertemuan5/pages/auth/Regrister";
 import LupaPassword from "./Pertemuan5/pages/auth/LupaPassword";
 import AuthLayouth from "./Pertemuan5/layouts/AuthLayouth";

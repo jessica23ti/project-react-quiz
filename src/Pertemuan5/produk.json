@@ -2,36 +2,36 @@
 
       {
         "id": 1,
-        "image": "../../public/img/hq720.jpg ",
+        "image": "/img/hq720.jpg ",
         "name": "Produk 1",
         "price": "Rp 100.000"
       },
       {
         "id": 2,
-        "image": "../../public/img/hq720.jpg",
+        "image": "/img/hq720.jpg",
         "name": "Rendang",
         "price": "Rp 200.000"
       },
       {
         "id": 3,
-        "image": "../../public/img/hq720.jpg",
+        "image": "/img/hq720.jpg",
         "name": "Produk 3",
         "price": "Rp 300.000"
       },
       {
         "id": 4,
-        "image": "../../public/img/hq720.jpg",
+        "image": "/img/hq720.jpg",
         "name": "Produk 4",
         "price": "Rp 150.000"
       }, {
         "id": 5,
-        "image": "../../public/img/hq720.jpg",
+        "image": "/img/hq720.jpg",
         "name": "Produk 5",
         "price": "Rp 150.000"
       }
       , {
         "id": 6,
-        "image": "../../public/img/hq720.jpg",
+        "image": "/img/hq720.jpg",
         "name": "Produk 6",
         "price": "Rp 150.000"
       }

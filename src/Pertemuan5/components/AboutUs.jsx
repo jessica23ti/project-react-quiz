@@ -8,15 +8,15 @@ export default function AboutUs() {
      
         <div className="flex justify-center mb-10 lg:mb-0 w-full lg:w-1/2">
           <img
-            src="../../../public/img/10371044-removebg-preview.png" 
+            src="/img/10371044-removebg-preview.png" 
             alt="About Illustration"
-            className="max-w-6xl mt-0"
+            className="mt-0 max-w-6xl"
           />
         </div>
 
    
         <div className="w-full lg:w-1/2 lg:text-left text-center">
-          <h2 className="mb-4 font-bold text-indigo-900 text-7xl  font-poppins-extrabold">
+          <h2 className="mb-4 font-poppins-extrabold font-bold text-indigo-900 text-7xl">
             Tentang Kami
           </h2>
           <p className="text-gray-700 text-2xl leading-relaxed">
@@ -34,10 +34,10 @@ export default function AboutUs() {
           <p className="text-9xl">🍔</p>
 
          
-          <h4 className="mb-1 font-semibold text-indigo-800 font-poppins-extrabold mt-15 text-3xl">
+          <h4 className="mt-15 mb-1 font-poppins-extrabold font-semibold text-indigo-800 text-3xl">
             Makanan Sedap
           </h4>
-          <p className="text-gray-600 text-sm font-poppins mt-8">
+          <p className="mt-8 font-poppins text-gray-600 text-sm">
             Makanan Indonesia bercita rasa indonesia ini sangat lah enak ! 
           </p>
         </div>
@@ -45,8 +45,8 @@ export default function AboutUs() {
   
         <div className="flex flex-col items-center max-w-xs text-center">
           <p className="text-9xl">💹</p>
-          <h4 className="mb-1 font-semibold text-indigo-800 font-poppins-extrabold mt-15 text-3xl">Murah</h4>
-          <p className="text-gray-600 text-sm font-poppins mt-8">
+          <h4 className="mt-15 mb-1 font-poppins-extrabold font-semibold text-indigo-800 text-3xl">Murah</h4>
+          <p className="mt-8 font-poppins text-gray-600 text-sm">
           Kalau ini udah pasti kesukaan orang indonesia yang suka murah - murah nih! 
           </p>
         </div>
@@ -54,8 +54,8 @@ export default function AboutUs() {
       
         <div className="flex flex-col items-center max-w-xs text-center">
        <p className="text-9xl">🤤</p>
-          <h4 className="mb-1 font-semibold text-indigo-800 font-poppins-extrabold mt-15 text-3xl">Promo</h4>
-          <p className="text-gray-600 text-sm font-poppins mt-8">
+          <h4 className="mt-15 mb-1 font-poppins-extrabold font-semibold text-indigo-800 text-3xl">Promo</h4>
+          <p className="mt-8 font-poppins text-gray-600 text-sm">
             Udah pasti promosi kalau beli disini, selain banyak promo kalian bisa daftar jadi member loh untuk dapatkan banyak promo 
           </p>
         </div>

@@ -5,12 +5,10 @@ export default function LandingPages() {
     // bg-gradient-to-r from-green-200 from-green-400 to-green-100 h-screen
     <div className="flex justify-center items-center h-screen">
       <div className="flex mx-auto px-4 sm:px-6 lg:px-8 container">
-      
-     
         <div className="flex flex-col justify-center w-full sm:w-1/2 sm:text-left text-center">
-            <p className="mb-6 text-blue-900 sm:text-xl ">
-          Selamat Datang di Toko Sedap kami ❗{" "}
-        </p>
+          <p className="mb-6 text-blue-900 sm:text-xl">
+            Selamat Datang di Toko Sedap kami ❗{" "}
+          </p>
           <h1 className="mb-4 font-poppins-extrabold text-indigo-900 text-6xl sm:text-8xl leading-tight">
             GOOD FOOD, SEDAPNY3 😋{" "}
           </h1>
@@ -30,7 +28,7 @@ export default function LandingPages() {
 
         <div className="hidden sm:block flex justify-center items-center sm:w-1/2">
           <img
-            src="../../../public/img/Screenshot_2025-05-15_074031-removebg-preview.png" // ada di public. edit aja agar jauh lebih menarik di figma
+            src="/img/Screenshot_2025-05-15_074031-removebg-preview.png" // ada di public. edit aja agar jauh lebih menarik di figma
             alt="Landing Page Image"
             className="w-full h-auto"
           />

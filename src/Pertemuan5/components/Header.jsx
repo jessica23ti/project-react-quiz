@@ -1,5 +1,5 @@
-import { BiLogOut } from "react-icons/bi"; 
-import { CgLogIn } from "react-icons/cg"; 
+import { BiLogOut } from "react-icons/bi";
+import { CgLogIn } from "react-icons/cg";
 import { FaBell, FaSearch } from "react-icons/fa";
 import { FcAreaChart } from "react-icons/fc";
 import { SlSettings } from "react-icons/sl";
@@ -29,31 +29,42 @@ export default function Header() {
       <div id="icons-container" className="flex items-center space-x-4">
         {/* Icons */}
         <div
-          id="notification-icon" className="relative bg-blue-100 p-3 rounded-2xl text-blue-500 cursor-pointer" >
+          id="notification-icon"
+          className="relative bg-blue-100 p-3 rounded-2xl text-blue-500 cursor-pointer"
+        >
           <FaBell />
           <span
             id="notification-badge"
             className="top-0 right-0 absolute bg-blue-200 px-2 py-1 rounded-full text-xs -translate-y-1/2 translate-x-1/2 transform"
-          >  50
+          >
+            {" "}
+            50
           </span>
         </div>
         <div
           id="chart-icon"
           className="bg-blue-100 p-3 rounded-2xl cursor-pointer"
         >
-          <Link to="/login"> <CgLogIn /> </Link>
+          <Link to="/login">
+            {" "}
+            <CgLogIn />{" "}
+          </Link>
         </div>
         <div
           id="settings-icon"
           className="bg-red-100 p-3 rounded-2xl text-red-500 cursor-pointer"
         >
-        <Link to="/"> <BiLogOut /> </Link>
+          <Link to="/">
+            {" "}
+            <BiLogOut />{" "}
+          </Link>
         </div>
 
         {/* Profile Section */}
         <div
           id="profile-container"
-          className="flex items-center space-x-4 pl-4 border-gray-300 border-l">
+          className="flex items-center space-x-4 pl-4 border-gray-300 border-l"
+        >
           <span id="profile-text" className="">
             Hello, <b>Jessica Nathania</b>
           </span>

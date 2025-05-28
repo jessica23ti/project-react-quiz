@@ -1,39 +1,44 @@
 [
-
-      {
-        "id": 1,
-        "image": "/img/hq720.jpg ",
-        "name": "Produk 1",
-        "price": "Rp 100.000"
-      },
-      {
-        "id": 2,
-        "image": "/img/hq720.jpg",
-        "name": "Rendang",
-        "price": "Rp 200.000"
-      },
-      {
-        "id": 3,
-        "image": "/img/hq720.jpg",
-        "name": "Produk 3",
-        "price": "Rp 300.000"
-      },
-      {
-        "id": 4,
-        "image": "/img/hq720.jpg",
-        "name": "Produk 4",
-        "price": "Rp 150.000"
-      }, {
-        "id": 5,
-        "image": "/img/hq720.jpg",
-        "name": "Produk 5",
-        "price": "Rp 150.000"
-      }
-      , {
-        "id": 6,
-        "image": "/img/hq720.jpg",
-        "name": "Produk 6",
-        "price": "Rp 150.000"
-      }
- 
+  {
+    "id": 1,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 1",
+    "price": "Rp 100.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental"
+  },
+  {
+    "id": 2,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 2 ",
+    "price": "Rp 200.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental"
+  },
+  {
+    "id": 3,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 3",
+    "price": "Rp 300.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental"
+  },
+  {
+    "id": 4,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 4",
+    "price": "Rp 150.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental"
+  },
+  {
+    "id": 5,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 5",
+    "price": "Rp 150.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental. "
+  },
+  {
+    "id": 6,
+    "image": "/img/ocvzYp2CepBQ3H6ioti2WEAlBzAUIgCze5AQ1E~tplv-sdweummd6v-text-logo-v1_QGRlbGl0YXB1dHJpMTkwOA==_q75.jpeg",
+    "name": "Produk 6",
+    "price": "Rp 150.000",
+    "desc": "Rasanya Enak Banget Luar Biasa!Ubi Ungu berasa banget dan kental"
+  }
 ]

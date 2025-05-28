@@ -7,67 +7,61 @@ export default function HomeLayouts() {
   return (
     <div>
       <header className="to-[#260269] shadow text-indigo-800">
-        <nav className="flex justify-between items-center mx-auto px-4 sm:px-6 lg:px-8 py-4 max-w-7xl">
+        <nav className="flex justify-between items-center mx-auto px-4 sm:px-6 lg:px-8 py-4 max-w-11xl">
           {/* Logo */}
-          <div className="flex items-center">
-            <h1 className="mr-19 ml-0 font-poppins-extrabold text-3xl">
+          <div className="pl-0">
+            <h1 className="mr-43 ml-0 font-poppins-extrabold text-3xl">
               SedapNy3.
             </h1>
           </div>
 
           {/* Navigation Menu */}
-          <div className="hidden md:flex gap-6 font-medium text-sm">
+          <div className="hidden md:flex gap-25 mr-50 font-medium text-xl">
             <Link
               to="/"
-              className="font-poppins-extrabold hover:text-indigo-200 transition"
-            >
+              className="font-poppins hover:text-indigo-200 transition">
               Beranda
             </Link>
             <Link
               to="/bestProduct"
-              className="font-poppins-extrabold hover:text-indigo-200 transition"
+              className="font-poppins hover:text-indigo-200 transition"
             >
               Produk
             </Link>
             <Link
               to="/tentang"
-              className="font-poppins-extrabold hover:text-indigo-200 transition"
+              className="font-poppins hover:text-indigo-200 transition"
             >
               Tentang
             </Link>
             <Link
               to="/testimoni"
-              className="font-poppins-extrabold hover:text-indigo -200 transition"
+              className="font-poppins hover:text-indigo-200 transition"
             >
               Testimoni 
             </Link>
           </div>
 
           {/* Login/Register */}
-          <div className="flex space-x-4 mr-1.5 ml-auto">
+          <div className="flex space-x-4 mr-1.5">
             <Link
               to="/login"
-              className="bg-white hover:bg-indigo-100 px-4 py-2 rounded-lg font-poppins-extrabold font-semibold text-indigo-700 text-sm transition"
+              className="bg-white hover:bg-indigo-100 px-4 py-2 rounded-lg font-poppins font-semibold text-xl transition"
             > 
               Login
             </Link>
             <Link
               to="/regrister"
-              className="bg-white hover:bg-green-100 px-4 py-2 rounded-lg font-poppins-extrabold font-semibold text-indigo  -700 text-sm transition"
+              className="bg-white hover:bg-indigo-100 px-4 py-2 rounded-lg font-poppins font-semibold text-xl transition"
             >
               Register
             </Link>
           </div>
           <div
             id="profile-container"
-            className="flex items-center space-x-4 pl-4 border-gray-300 border-l"
+            className="flex items-center border-gray-300 border-l"
           >
-            <span
-              id="profile-text"
-              className="font-poppins-extrabold text-indigo-900"
-            >
-              Hello, <b>Jessica Nathania</b>
-            </span>
+          
             <img
               id="profile-avatar"
               src="https://avatar.iran.liara.run/public/28"

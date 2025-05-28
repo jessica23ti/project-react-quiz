@@ -9,14 +9,14 @@ import Testimoni from "../components/Testimonial";
 export default function HomePage() {
   return (
     <div id="dashboard-container  ">
-     
       <LandingPages />
-      <AboutUs/>
-      <br /><br /><br /><br />
-      <hr className="text-gray-200"/>
-     <Produk/>
-    
-     <Testimoni/>
+      <br />
+      <br />
+      <AboutUs />
+      <br />
+      <Produk />
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /><br />
+      <Testimoni />
       <div
         id="dashboard-grid"
         className="gap-4 grid sm:grid-cols-2 md:grid-cols-4 p-5"

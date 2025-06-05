@@ -19,7 +19,8 @@ export default function HomeLayouts() {
           <div className="hidden md:flex gap-25 mr-50 font-medium text-xl">
             <Link
               to="/"
-              className="font-poppins hover:text-indigo-200 transition">
+              className="font-poppins hover:text-indigo-200 transition"
+            >
               Beranda
             </Link>
             <Link
@@ -38,8 +39,10 @@ export default function HomeLayouts() {
               to="/testimoni"
               className="font-poppins hover:text-indigo-200 transition"
             >
-              Testimoni 
+              Testimoni
             </Link>
+
+          
           </div>
 
           {/* Login/Register */}
@@ -47,7 +50,7 @@ export default function HomeLayouts() {
             <Link
               to="/login"
               className="bg-white hover:bg-indigo-100 px-4 py-2 rounded-lg font-poppins font-semibold text-xl transition"
-            > 
+            >
               Login
             </Link>
             <Link
@@ -61,7 +64,6 @@ export default function HomeLayouts() {
             id="profile-container"
             className="flex items-center border-gray-300 border-l"
           >
-          
             <img
               id="profile-avatar"
               src="https://avatar.iran.liara.run/public/28"
@@ -71,7 +73,7 @@ export default function HomeLayouts() {
         </nav>
       </header>
       <Outlet />
-     <Footers/>
+      <Footers />
     </div>
   );
 }

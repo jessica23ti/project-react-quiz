@@ -28,7 +28,13 @@ const AboutUsPage = React.lazy(() => import("./Pertemuan5/pages/AboutUsPages"));
 const ProductBest = React.lazy(() => import("./Pertemuan5/pages/ProductBest"));
 const Testimoni = React.lazy(() => import("./Pertemuan5/pages/Testimoni"));
 const HomePage = React.lazy(() => import("./Pertemuan5/pages/HomePage"));
-const CekKeanggotaan = React.lazy(() => import("./Pertemuan5/pages/CekKeanggotaan"));
+const CekKeanggotaan = React.lazy(() =>
+  import("./Pertemuan5/pages/CekKeanggotaan")
+);
+const Produk_Sedap = React.lazy(() =>
+  import("./Pertemuan5/pages/Products")
+);
+const ProductDetail = React.lazy(() => import("./Pertemuan5/pages/ProductDetail"));
 
 function App() {
   return (
@@ -45,6 +51,8 @@ function App() {
             <Route path="/FormUser" element={<FormUser />} />
             <Route path="/FormCekAnggota" element={<CekKeanggotaan />} />
             <Route path="/error/:code" element={<NotFound />} />
+            <Route path="/Product-Sedap" element={<Produk_Sedap />} />
+            <Route path="/products/:id" element={<ProductDetail />} />
           </Route>
           <Route path="*" element={<NotFound />} />
           <Route element={<AuthLayouth />}>

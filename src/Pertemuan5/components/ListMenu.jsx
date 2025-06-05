@@ -53,9 +53,15 @@ export default function ListMenu() {
           </li>
           <li>
             <NavLink id="menu-8" to="/FormCekAnggota" className={menuClass}>
-              <BiError /> Cek Anggota 
+              <BiError /> Cek Anggota
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/Product-Sedap" className={menuClass}>
+              Produk - Sedap
+            </NavLink>
+          </li>
+         
           <br />
         </ul>
       </div>

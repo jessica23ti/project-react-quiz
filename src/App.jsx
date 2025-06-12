@@ -35,6 +35,7 @@ const Produk_Sedap = React.lazy(() =>
   import("./Pertemuan5/pages/Products")
 );
 const ProductDetail = React.lazy(() => import("./Pertemuan5/pages/ProductDetail"));
+const Notes = React.lazy(() => import("./Pertemuan5/pages/notes"));
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
             <Route path="/error/:code" element={<NotFound />} />
             <Route path="/Product-Sedap" element={<Produk_Sedap />} />
             <Route path="/products/:id" element={<ProductDetail />} />
+            <Route path="/notes" element={<Notes />} />
           </Route>
           <Route path="*" element={<NotFound />} />
           <Route element={<AuthLayouth />}>

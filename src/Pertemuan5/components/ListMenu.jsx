@@ -61,7 +61,12 @@ export default function ListMenu() {
               Produk - Sedap
             </NavLink>
           </li>
-         
+          <li>
+            <NavLink to="/notes" className={menuClass}>
+              Notes
+            </NavLink>
+          </li>
+
           <br />
         </ul>
       </div>

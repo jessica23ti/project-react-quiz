@@ -102,7 +102,7 @@ export default function Notes() {
       setLoading(false);
     }
   };
-
+//hallo bodat
   const [isEditMode, setIsEditMode] = useState(false);
   const [editId, setEditId] = useState(null);
   const handleUpdate = (note) => {
